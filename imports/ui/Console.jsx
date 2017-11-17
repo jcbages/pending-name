@@ -71,6 +71,7 @@ class Console extends Component {
 				<input
 					type="text"
 					ref="input"
+					aria-label="Console Input"
 					maxLength="50"
 					onKeyPress={this.handleKeyPress}
 				/>

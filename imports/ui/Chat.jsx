@@ -33,18 +33,6 @@ class Chat extends Component {
 
 	componentDidMount() {
 		this.interval = setInterval(this.updateTime.bind(this), 1000);
-		$.getScript('https://apis.google.com/js/platform.js', this.handleClientLoad);
-	}
-
-	handleClientLoad() {
-		console.log('asiodahjsdioahs');
-		gapi.hangout.render('placeholder-div', {
-	    'topic': 'hats',
-	    'render': 'createhangout',
-	    'initial_apps': [
-	      { app_id : 'youtube' }
-	    ]
-	  });
 	}
 
 	componentWillUnmount() {
@@ -117,8 +105,6 @@ class Chat extends Component {
 						<button className="b1" onClick={this.props.endSession}>
 							End Session
 						</button>
-
-						<div className="placeholder-div"></div>
 					</div>
 
 				</div>

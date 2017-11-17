@@ -14,7 +14,7 @@
 	font-size: 1.27em;
 	margin-top: 10px;
 	text-align: center;
-	color: #EBEBEB;
+	color: #222222;
 }
 
 #navbar .profile {
@@ -29,7 +29,7 @@
 	height: 100%;
 	font-size: 1.14em;
 	outline: none;
-	color: #EBEBEB;
+	color: #222222;
 }
 
 #navbar .profile #login-buttons-github {
@@ -40,7 +40,7 @@
 	width: 100%;
 	height: 50px;
 	padding: 5px;
-	color: #EBEBEB;
+	color: #222222;
 }
 
 /* Chat styles */
@@ -60,7 +60,7 @@
 	font-size: 1.14em;
 	padding: 10px;
 	outline: none;
-	color: #EBEBEB;
+	color: #111111;
 	cursor: pointer;
 	margin-bottom: 8%;
 }
